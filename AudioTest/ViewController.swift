@@ -1,25 +1,23 @@
-//
-//  ViewController.swift
-//  AudioTest
-//
-//  Created by Natalia Harateh on 8/16/18.
-//  Copyright © 2018 Natalia Harateh. All rights reserved.
-//
-
 import UIKit
+import WebKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var webView: WKWebView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        guard let path = Bundle.main.path(forResource: "audio_test", ofType: "html") else {
+            assertionFailure()
+            return
+        }
+        let url = URL(fileURLWithPath: path)
+        guard let text = try? String(contentsOfFile: path, encoding: String.Encoding.utf8) else {
+            assertionFailure()
+            return
+        }
+        webView.configuration.allowsInlineMediaPlayback = true
+        webView.loadHTMLString(text, baseURL: url)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 

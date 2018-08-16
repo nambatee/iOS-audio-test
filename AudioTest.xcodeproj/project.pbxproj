@@ -12,6 +12,7 @@
 		7ACB4DF72125B5DF00C63670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ACB4DF52125B5DF00C63670 /* Main.storyboard */; };
 		7ACB4DF92125B5E000C63670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ACB4DF82125B5E000C63670 /* Assets.xcassets */; };
 		7ACB4DFC2125B5E000C63670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ACB4DFA2125B5E000C63670 /* LaunchScreen.storyboard */; };
+		7ACB4E042125B87000C63670 /* audio_test.html in Resources */ = {isa = PBXBuildFile; fileRef = 7ACB4E032125B87000C63670 /* audio_test.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7ACB4DF82125B5E000C63670 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7ACB4DFB2125B5E000C63670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7ACB4DFD2125B5E000C63670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ACB4E032125B87000C63670 /* audio_test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = audio_test.html; path = ../../../Desktop/audio_test.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				7ACB4DF82125B5E000C63670 /* Assets.xcassets */,
 				7ACB4DFA2125B5E000C63670 /* LaunchScreen.storyboard */,
 				7ACB4DFD2125B5E000C63670 /* Info.plist */,
+				7ACB4E032125B87000C63670 /* audio_test.html */,
 			);
 			path = AudioTest;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 				7ACB4DFC2125B5E000C63670 /* LaunchScreen.storyboard in Resources */,
 				7ACB4DF92125B5E000C63670 /* Assets.xcassets in Resources */,
 				7ACB4DF72125B5DF00C63670 /* Main.storyboard in Resources */,
+				7ACB4E042125B87000C63670 /* audio_test.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

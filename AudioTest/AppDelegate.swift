@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  AudioTest
-//
-//  Created by Natalia Harateh on 8/16/18.
-//  Copyright © 2018 Natalia Harateh. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
